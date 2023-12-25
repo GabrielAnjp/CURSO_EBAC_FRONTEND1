@@ -73,7 +73,7 @@ width: 100%;
 }
 
 .articles {
-    display: none;
+    display: flex;
 }
 
 .articles article img{
