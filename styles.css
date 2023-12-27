@@ -16,7 +16,7 @@ header {
     padding: 20px;
 }
 
-header h1 {
+header h1,h2,h4,h6,h8 {
     margin: 8;
     font-size: 50px;
 }
@@ -72,10 +72,55 @@ width: 100%;
     
 }
 
-.articles {
+.article {
     display: flex;
+    justify-content: space-between;
 }
 
-.articles article img{
+.article article img {
+   /* height: 180px; */
+   width: 100%;
+}
+
+.article article {
     width: 30%;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section h4 {
+    margin-bottom: 16px;
+}
+
+section h6 {
+    margin-bottom: 16px;
+}
+
+section h8 {
+    margin-bottom: 16px;
+}
+
+.article article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+}
+
+#Noticias {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#Esportes {
+    background-color: #fffa65;
+}
+
+#Tecnologia {
+    background-color: aquamarine;
+}
+
+#Entretenimento {
+    background-color: rgb(150, 107, 138);
 }
